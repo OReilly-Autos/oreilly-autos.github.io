@@ -215,10 +215,7 @@ body {
 }
 
 .contact_us_2 .text-blk {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0 0 0 0;
     line-height: 25px;
 }
 
@@ -227,18 +224,13 @@ body {
 }
 
 .contact_us_2 input:focus {
-    outline-color: initial;
-    outline-style: none;
-    outline-width: initial;
+    outline: initial none initial;
 }
 
 .contact_us_2 .container-block {
     min-height: 75px;
     width: 100%;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px;
     display: block;
 }
 
@@ -262,21 +254,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-left: auto;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    margin: 0 auto 50px;
+    padding: 0;
 }
 
 .contact_us_2 .responsive-container-block.big-container {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    padding: 10px 30px;
     position: relative;
     height: auto;
 }
@@ -287,29 +270,17 @@ body {
     flex-direction: column;
     z-index: 2;
     max-width: 800px;
-    margin-top: 120px;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-left: auto;
+    margin: 120px auto 50px;
 }
 
 .contact_us_2 .container-block.form-wrapper {
     background-color: white;
     max-width: 799px;
     text-align: center;
-    padding-top: 50px;
-    padding-right: 40px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    padding: 50px 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 4px 20px 7px;
+    border-radius: 6px;
+    margin: 0 auto;
 }
 
 .contact_us_2 .text-blk.contactus-head {
@@ -320,28 +291,19 @@ body {
 
 .contact_us_2 .text-blk.contactus-subhead {
     color: #9c9c9c;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    margin: 0 0 50px;
 }
 
-.contact_us_2
+.contact_us_2,
 .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 26px;
-    margin-left: 0px;
+    margin: 0 0 26px;
     min-height: 50px;
 }
 
 .contact_us_2 .input {
     width: 96%;
     height: 50px;
-    padding-top: 1px;
-    padding-right: 15px;
-    padding-bottom: 1px;
-    padding-left: 15px;
+    padding: 1px 15px;
     border-top-width: 2px;
     border-right-width: 2px;
     border-bottom-width: 2px;
@@ -356,24 +318,16 @@ body {
     border-left-color: #eeeeee;
     border-image-source: initial;
     border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
     border-image-repeat: initial;
     font-size: 16px;
     color: black;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-radius: 4px;
 }
 
 .contact_us_2 .textinput {
     width: 98%;
     min-height: 150px;
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    padding-left: 15px;
+    padding: 20px 15px;
     border-top-width: 2px;
     border-right-width: 2px;
     border-bottom-width: 2px;
@@ -392,23 +346,19 @@ body {
     border-image-outset: initial;
     border-image-repeat: initial;
     font-size: 16px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-radius: 4px;
 }
 
 .contact_us_2 .submit-btn {
     width: 98%;
-    background-color: #03a9f4;
     height: 60px;
     font-size: 20px;
     font-weight: 700;
     color: white;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
     border-top-style: outset;
     border-right-style: outset;
     border-bottom-style: outset;
@@ -419,32 +369,21 @@ body {
     border-left-color: #767676;
     border-image-source: initial;
     border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
     border-image-repeat: initial;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-radius: 4px;
     cursor: pointer;
     background-color: #ffc89e;
 }
 
 .contact_us_2 .form-box {
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .contact_us_2 .social-media-links {
     width: 250px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 50px auto 0;
 }
 
 .contact_us_2 .link-img {
@@ -454,15 +393,9 @@ body {
 
 .contact_us_2 .text-blk.input-title {
     text-align: left;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 10px;
+    padding: 0 0 0 10px;
     font-size: 14px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 5px;
-    margin-left: 0px;
+    margin: 0 0 5px;
     color: #9c9c9c;
 }
 
@@ -473,8 +406,8 @@ body {
 .contact_us_2 .blueBG {
     position: absolute;
     width: 100%;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     height: 300px;
     background-color: #ffc89e;
 }
@@ -494,31 +427,19 @@ body {
     }
 
     .contact_us_2 .container-block.form-wrapper {
-        margin-top: 80px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+        margin: 80px 0 0;
     }
 
     .contact_us_2 .text-blk.input-title {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
+        padding: 0;
     }
 
     .contact_us_2 .responsive-container-block.container {
-        margin-top: 80px;
-        margin-right: 0px;
-        margin-bottom: 50px;
-        margin-left: 0px;
+        margin: 80px 0 50px;
     }
 
     .contact_us_2 .container-block.form-wrapper {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+        margin: 0;
     }
 
     .contact_us_2 .text-blk.contactus-head {
@@ -529,32 +450,20 @@ body {
 
 @media (max-width: 500px) {
     .contact_us_2 .container-block.form-wrapper {
-        padding-top: 50px;
-        padding-right: 15px;
-        padding-bottom: 50px;
-        padding-left: 15px;
+        padding: 50px 15px;
     }
 
     .contact_us_2 .container-block.form-wrapper {
-        margin-top: 60px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+        margin: 60px 0 0;
     }
 
-    .contact_us_2
+    .contact_us_2,
     .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 15px;
-        margin-left: 0px;
+        margin: 0 0 15px;
     }
 
     .contact_us_2 .responsive-container-block {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 35px;
-        margin-left: 0px;
+        margin: 0 0 35px;
         display: flex;
         transition: all 0.3s ease-in-out;
     }
@@ -564,24 +473,15 @@ body {
     }
 
     .contact_us_2 .responsive-container-block.container {
-        margin-top: 50px;
-        margin-right: 0px;
-        margin-bottom: 50px;
-        margin-left: 0px;
+        margin: 50px 0;
     }
 
     .contact_us_2 .container-block.form-wrapper {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+        margin: 0;
     }
 
     .contact_us_2 .responsive-container-block.big-container {
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding: 10px 20px;
     }
 
     .contact_us_2 .text-blk.contactus-head {

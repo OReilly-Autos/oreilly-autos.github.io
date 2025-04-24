@@ -1,4 +1,3 @@
-/* Shop Controls - Bigger, Better Looking */
 .shop-controls {
   padding: 20px;
   background: #f8f8f8;
@@ -59,7 +58,6 @@
   color: white;
 }
 
-/* Product Grid */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -69,7 +67,6 @@
   margin: 0 auto;
 }
 
-/* Add to your existing shop.css */
 .item-card {
   background: white;
   border-radius: 8px;
@@ -106,8 +103,6 @@
   font-weight: bold;
 }
 
-/* Update viewport for better mobile scaling */
-/* Remove this from HTML and add to CSS */
 html {
   font-size: 16px;
 }

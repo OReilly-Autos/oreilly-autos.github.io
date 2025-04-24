@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const carList = [/* Your car list array from component */];
+    const carList = [carList];
 
     // Render initial cars
     renderCars(carList);
@@ -40,7 +40,7 @@ function renderCars(cars) {
     });
 }
 
-// Your car data
+// Car data
 const carList = [
     {
         id: 1,

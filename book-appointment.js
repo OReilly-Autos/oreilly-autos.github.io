@@ -43,15 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         };
 
-        // Here you would typically send the data to your backend
         console.log('Appointment data:', formData);
 
-        // Show success message
         alert('Appointment booked successfully!');
         form.reset();
 
-        // In a real app, you would redirect or show a confirmation page
-        // window.location.href = '/confirmation';
     });
 
     // Add input validation
