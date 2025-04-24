@@ -31,6 +31,10 @@ function renderCars(cars) {
         card.className = 'item-card';
         card.innerHTML = `
             <img src="${car.imageUrl}" alt="${car.name}" class="item-image">
+            <div class="item-info">
+                <h3 class="item-name">${car.name}</h3>
+                <p class="item-price">$${car.price.toLocaleString()}</p>
+            </div>
         `;
         container.appendChild(card);
     });

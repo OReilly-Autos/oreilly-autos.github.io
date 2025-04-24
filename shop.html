@@ -2,24 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shop</title>
-    <link rel="stylesheet" href="shop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - O'Reilly Autos</title>
+    <link rel="stylesheet" href="./assets/styles/global.css">
+    <link rel="stylesheet" href="./assets/styles/shop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="shop-container">
-    <div class="shop-categories">
-        <input type="text" placeholder="Search..." class="search-input">
+<header class="header">
+    <h1 class="logo">O'Reilly Autos</h1>
+    <nav>
+        <ul id="pageButtons">
+            <li><a href="index.html" class="button">Home</a></li>
+            <li><a href="shop.html" class="button active">Shop</a></li>
+            <li><a href="contact-us.html" class="button">Contact Us</a></li>
+            <li><a href="book-appointment.html" class="button">Book An Appointment</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <div class="dynamic-categories">
-            <button class="category-button">Shop Car Parts</button>
-            <button class="category-button">Shop Cars</button>
+<main class="shop-container">
+    <div class="shop-controls">
+        <input type="text" placeholder="Search..." class="search-input">
+        <div class="category-buttons">
+            <button class="category-button active">All</button>
             <button class="category-button">Accessories</button>
+            <button class="category-button">Car Parts</button>
+            <button class="category-button">Cars</button>
         </div>
     </div>
 
-    <div class="shop-items" id="car-list"></div>
-</div>
+    <div class="product-grid" id="car-list">
+        <!-- Products will be inserted here by JavaScript -->
+    </div>
+</main>
 
-<script src="shop.js"></script>
+<footer>
+    <p>&copy; 2023 O'Reilly Autos. All rights reserved.</p>
+</footer>
+
+<script src="./assets/scripts/shop.js"></script>
 </body>
 </html>

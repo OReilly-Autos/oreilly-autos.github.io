@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +9,30 @@
 </head>
 
 <body>
-    <h1 id="header">O'Reillys Autos
-        <div id="pageButtons">
-            <button class="button">Home</button> 
-            <button class="button">Shop</button> 
-            <button class="button">Contact Us</button> 
-        </div>
-    </h1>
+<header class="header">
+    <h1 class="logo">O'Reilly Autos</h1>
+    <nav>
+        <ul id="pageButtons">
+            <li><a href="index.html" class="button">Home</a></li>
+            <li><a href="shop.html" class="button">Shop</a></li>
+            <li><a href="contact-us.html" class="button">Contact Us</a></li>
+            <li><a href="book-appointment.html" class="button">Book An Appointment</a></li>
+        </ul>
+    </nav>
+</header>
 
+<main>
     <div id="welcomeParagraph">
-    <p>Short Welcome Paragraph.</p>
+        <p>Short Welcome Paragraph.</p>
     </div>
 
-    <img id="photo" src="" alt="">
+    <img id="photo" src="./assets/images/car-showroom.jpg" alt="Car showroom">
+</main>
 
+<footer>
+    <p>&copy; 2023 O'Reilly Autos. All rights reserved.</p>
+</footer>
 
-
-    <footer>Example</footer>
+<script src="./assets/scripts/main.js"></script>
 </body>
-
 </html>
