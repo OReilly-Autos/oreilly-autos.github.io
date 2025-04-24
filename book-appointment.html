@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="book-appointment.css">
+</head>
+<body>
+<form class="login-form" id="appointmentForm">
+  <h2>Customer Details</h2>
+
+  <div id="section-customer-details">
+    <div class="form-group">
+      <div class="text-field">
+        <label>First Name</label>
+        <input type="text" name="firstName" required>
+      </div>
+      <div class="text-field">
+        <label>Last Name</label>
+        <input type="text" name="lastName">
+      </div>
+      <div class="text-field">
+        <label>Email</label>
+        <input type="email" name="email">
+      </div>
+      <div class="text-field">
+        <label>Phone Number</label>
+        <input type="tel" name="phoneNumber" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="text-field">
+        <label>Make</label>
+        <input type="text" name="make">
+      </div>
+      <div class="text-field">
+        <label>Model</label>
+        <input type="text" name="model">
+      </div>
+      <div class="text-field">
+        <label>Year</label>
+        <input type="number" name="year">
+      </div>
+      <div class="text-field">
+        <label>License Plate</label>
+        <input type="text" name="licensePlate">
+      </div>
+    </div>
+  </div>
+
+  <div id="section-appointment-details">
+    <h2>Appointment Details</h2>
+    <div class="form-group">
+      <div class="text-field">
+        <label>Date</label>
+        <input type="date" name="date" required>
+      </div>
+      <div class="text-field">
+        <label>Time</label>
+        <input type="time" name="time" required>
+      </div>
+      <div class="text-field">
+        <label>Additional Notes</label>
+        <textarea name="notes" placeholder="Enter any special requests or notes..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <button type="submit" class="button-submit">Book Appointment</button>
+</form>
+
+<script src="book-appointment.js"></script>
+</body>
+</html>
