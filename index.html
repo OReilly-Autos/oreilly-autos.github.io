@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O'Reilly Autos</title>
+
+    <!-- CSS styles -->
     <link rel="stylesheet" href="./assets/styles/global.css">
     <link rel="stylesheet" href="./assets/styles/home.css">
+
+    <!-- JS -->
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/footer.js"></script>
 </head>
 
 <body>
-    <h1 id="header">O'Reillys Autos
-        <div id="pageButtons">
-            <button class="button">Home</button> 
-            <button class="button">Shop</button> 
-            <button class="button">Contact Us</button> 
+    <!-- Automatically populated navbar by JS -->
+    <div id="navbar-container"></div>
+
+    <main>
+        <div id="welcomeParagraph">
+            <p>Short Welcome Paragraph.</p>
         </div>
-    </h1>
 
-    <div id="welcomeParagraph">
-    <p>Short Welcome Paragraph.</p>
-    </div>
+        <img id="photo" src="" alt="">
+    </main>
 
-    <img id="photo" src="" alt="">
-
-
-
-    <footer>Example</footer>
+    <!-- Automatically populated footer by JS -->
+    <div id="footer-container"></div>
 </body>
 
 </html>
