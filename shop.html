@@ -13,6 +13,7 @@
     <!-- JS -->
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/footer.js"></script>
+    <script src="./assets/js/shop.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,14 @@
     <div id="navbar-container"></div>
 
     <main>
-        Shop page contents
+        <div class="shop-nav">
+            <button class="button" href="/index.html" onclick="setSelectedShopType('car_part')">Shop Car Parts</button>
+            <button class="button" href="/book.html" onclick="setSelectedShopType('car')">Shop Cars</button>
+            <button class="button" href="/shop.html" onclick="setSelectedShopType('accessory')">Accessories</button>
+            <input id="shop-search" type="text" placeholder="Search..." />
+        </div>
+
+        <div id="product-container"></div>
     </main>
 
     <!-- Automatically populated footer by JS -->
