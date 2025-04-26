@@ -12,9 +12,14 @@
 .button {
     font-size: 1em;
     cursor: pointer;
-    background-color: transparent;
-    border: none;
+    background-color: var(--primary-color);
+    border: 2px solid black;
     outline: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 /**
