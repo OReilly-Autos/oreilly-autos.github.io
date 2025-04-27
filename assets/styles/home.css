@@ -1,3 +1,37 @@
-#welcomeParagraph {
-    font-size: 1em;
+#gridContents {
+    display: grid;
+    margin: 5%;
+    font-size: 1.5em;
 }
+
+#welcomeParagraph {
+    font-size: 1.5em;
+    margin: 5%;
+    margin-bottom: 5%;
+
+}
+
+#aboutUsParagraph {
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 2%;
+}
+
+#meetTeam {
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 2%;
+}
+
+#photo {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1;
+    width: 500px;
+    height: 300px;
+    margin-right: 2%;
+}
+
+
