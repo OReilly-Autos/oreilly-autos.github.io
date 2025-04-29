@@ -8,7 +8,7 @@
 .login-form h2 {
     color: #333;
     margin-bottom: 20px;
-    border-bottom: 2px solid #ffc89e;
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
 }
 
@@ -41,8 +41,8 @@
 .text-field input:focus,
 .text-field textarea:focus {
     outline: none;
-    border-color: #ffc89e;
-    box-shadow: 0 0 5px rgba(255, 200, 158, 0.5);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color);
 }
 
 .text-field textarea {
@@ -51,7 +51,7 @@
 }
 
 .button-submit {
-    background-color: #ff6f61;
+    background-color: var(--primary-color);
     color: white;
     border: none;
     padding: 12px 25px;
@@ -65,7 +65,7 @@
 }
 
 .button-submit:hover {
-    background-color: #e05a4e;
+    background-color: var(--primary-color);
 }
 
 @media (max-width: 600px) {
