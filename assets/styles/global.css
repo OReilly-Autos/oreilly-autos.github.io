@@ -1,5 +1,10 @@
 :root {
     --primary-color: #3287D7;
+    --primary-font: Arial, Helvetica, sans-serif;
+}
+
+body * {
+    font-family: var(--primary-font);
 }
 
 #header {
@@ -55,6 +60,7 @@
     padding: 1em;
     text-decoration: none;
     color: black;
+    font-family: var(--primary-font);
 }
 
 
